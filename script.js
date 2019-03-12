@@ -4,4 +4,4 @@ $(document).ready(function(){
   });
 });
 
-$("#mainContent").removeClass("hidden");
+//$("#mainContent").removeClass("hidden");
