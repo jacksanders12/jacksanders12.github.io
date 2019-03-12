@@ -3,3 +3,5 @@ $(document).ready(function(){
     $("#header").html(data);
   });
 });
+
+$("#mainContent").removeClass("hidden");
