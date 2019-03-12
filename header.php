@@ -17,7 +17,7 @@
 
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <a class="navbar-brand" href="./index.html">Home</a>
+  <a class="navbar-brand" href="./index.php">Home</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -25,19 +25,19 @@
     <ul class="navbar-nav">
       <li class="dropdown"><a class="navbar-brand" data-toggle="dropdown" href="#">Rosters </a>
         <ul class="dropdown-menu">
-          <li class><a href="./u16.html">U16</a></li>
-          <li><a href="./u17.html">U17</a></li>
+          <li class><a href="./u16.php">U16</a></li>
+          <li><a href="./u17.php">U17</a></li>
           
         </ul>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="./UpcomingEvents.html">Upcoming Events</a>
+        <a class="nav-link" href="./UpcomingEvents.php">Upcoming Events</a>
       </li>
       <li class="nav-item active">
         <a class="nav-link" href="#">Contact</a>
       </li>    
       <li class="nav-item active">
-        <a class="nav-link" href="./AboutUs.html">About Us</a>
+        <a class="nav-link" href="./AboutUs.php">About Us</a>
       </li> 
     </ul>
   </div>  
