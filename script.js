@@ -4,12 +4,6 @@ $(document).ready(function(){
   });
 });
 
-<script>
-    $('#fixednav ul li a').click(function(){
-    $('a').parent().removeClass('active');
-    $(this).parent().addClass('active');
-    });​  
-</script>
 
 function removeHidden() {
 	$("#mainContent").removeClass("hidden");
