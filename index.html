@@ -31,12 +31,15 @@
 </div>
 </body>
 <script>
-  function removeHidden() {
-    $("#mainContent").removeClass("hidden");
+  function removeHiddenHeader() {
     $("#header").removeClass("hidden");
   }
+  function removeHiddenContent() {
+    $("#mainContent").removeClass("hidden");
+  }
   //$("#mainContent").removeClass("hidden");
-  removeHidden();
+  removeHiddenHeader();
+  removeHiddenContent();
   //setTimeout(removeHidden, 100)
   //$("#mainContent").removeClass("hidden");
 </script>
