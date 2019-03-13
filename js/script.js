@@ -8,7 +8,7 @@ $(document).ready(function(){
 
 
 
-$( '#topheader .navbar-nav ul li a' ).on( 'click', function () {
+$( '#topheader .navbar-nav li' ).on( 'click', function () {
 	$( '#topheader .navbar-nav' ).find( 'li.active' ).removeClass( 'active' );
 	$( this ).parent( 'li' ).addClass( 'active' );
 });
