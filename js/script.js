@@ -6,7 +6,8 @@ $(document).ready(function(){
 
 
 
-function removeHidden() {
-	$("#mainContent").removeClass("hidden");
-}
+$( '#topheader .navbar-nav a' ).on( 'click', function () {
+	$( '#topheader .navbar-nav' ).find( 'li.active' ).removeClass( 'active' );
+	$( this ).parent( 'li' ).addClass( 'active' );
+});
 
