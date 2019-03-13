@@ -1,3 +1,5 @@
+<script type="text/javascript" src="jquery-3.3.1.js"></script>
+
 $(document).ready(function(){ 
   $.get("header.html", function(data) {
     $("#header").html(data);
@@ -6,7 +8,7 @@ $(document).ready(function(){
 
 
 
-$( '#topheader .navbar-nav a' ).on( 'click', function () {
+$( '#topheader .navbar-nav ul li a' ).on( 'click', function () {
 	$( '#topheader .navbar-nav' ).find( 'li.active' ).removeClass( 'active' );
 	$( this ).parent( 'li' ).addClass( 'active' );
 });
