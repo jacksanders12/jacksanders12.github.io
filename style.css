@@ -3,3 +3,10 @@
     display: none;
 }
 
+.active {
+    color: #ff9933 !important;
+}
+
+#collapsibleNavbar ul li a, #collapsibleNavbar ul li a:visited {
+    color: red;
+}
