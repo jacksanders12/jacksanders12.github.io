@@ -1,5 +1,7 @@
 <header>
   <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+  <script src="js/script.js"></script>
   <title>Illini Magic</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -43,6 +45,10 @@
 </nav>
 </div>
 <script>
+    $('#collapsibleNavbar ul li a').click(function(){
+    $('li').parent().removeClass('active');
+    $(this).parent().addClass('active');
+    });​  
 </script>
 </header>
 
