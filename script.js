@@ -5,4 +5,6 @@ $(document).ready(function(){
   });
 });
 
-//$("#mainContent").removeClass("hidden");
+function removeHidden() {
+	$("#mainContent").removeClass("hidden");
+}
