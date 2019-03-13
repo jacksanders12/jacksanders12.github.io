@@ -8,6 +8,20 @@
     color: red;
 }
 
-.active {
-    color: blue;
+
+
+#topheader .navbar-nav li.nav-item > a {
+	color: white;
+	transition: background-color green, color blue;
+	
+	&:hover,
+	&:focus {
+		background-color: green;
+		color: red;
+	}
+}
+
+#topheader .navbar-nav li.active > a {
+	background-color: white;
+	color: black;
 }
