@@ -1,4 +1,3 @@
-<script type="text/javascript" src="jquery-3.3.1.js"></script>
 
 $(document).ready(function(){ 
   $.get("header.html", function(data) {
