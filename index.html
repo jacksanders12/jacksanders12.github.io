@@ -4,9 +4,16 @@
 <head>
 
   <title>Jack Sanders</title>
+  <script type='text/javascript'>
+  function addText() {
+    document.getElementById('para').innerHTML = 'added text';
+  }
+  </script>
 </head>
 
 <body>
+  <button onclick="addText();">Hello</button>
+  <h1 id='para'></h1>
   <img src='img/prof_pics/on_porch.jpeg'/>
   <h1>Jack Sanders</h1>
   <h3>Data Scientist</h3>
