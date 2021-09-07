@@ -9,8 +9,6 @@ const board = [null,0,null,1,null,2,null,3,
     ]
 //DOM references
 const cells = document.querySelectorAll('td');
-//let redsPieces = document.querySelectorAll('#0,#1,#2,#3,#4,#5,#6,#7,#8,#9,#10,#11');
-//let redsPieces = document.querySelectorAll("#\\30 ,#\\31 ,#\\32 ,#\\33 ,#\\34 ,#\\35 ,#\\36 ,#\\37 ,#\\38 ,#\\39 ,#\\40 ,#\\41 ");
 let redsPieces = document.querySelectorAll("[id='0'], [id='1'], [id='2'], [id='3'], [id='4'], [id='5'], [id='6'], [id='7'], [id='8'], [id='9'], [id='10'], [id='11']");
 let blacksPieces = document.querySelectorAll("[id='12'], [id='13'], [id='14'], [id='15'], [id='16'], [id='17'], [id='18'], [id='19'], [id='20'], [id='21'], [id='22'], [id='23']");
 const redTurnText = document.querySelectorAll('.red-turn-text');
